@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fceef5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #e879ad;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .member {
+            background-color: white;
+            width: 260px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px #e5c6d5;
+        }
+
+        .member h2 {
+            color: #c44582;
+            font-size: 20px;
+        }
+
+        .member p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #e879ad;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meet Our Team!</h1>
+        <p>Get to know the members behind our project.</p>
+    </header>
+
+    <main class="team-container">
+
+        <div class="member">
+            <h2>Nadia Alifah Khairunnisa</h2>
+            <p>NPM: 2606865493</p>
+        </div>
+
+        <div class="member">
+            <h2>Putri Azmah Auliya</h2>
+            <p>NPM: 2606810342</p>
+        </div>
+
+        <div class="member">
+            <h2>Retania Ash-suhada</h2>
+            <p>NPM: 2606752512</p>
+        </div>
+
+        <div class="member">
+            <h2>Safira Fazra Salladin</h2>
+            <p>NPM: 2606891655</p>
+        </div>
+
+        <div class="member">
+            <h2>Suci Aulia Puji Lestari</h2>
+            <p>NPM: 2606752840</p>
+        </div>
+
+        <div class="member">
+            <h2>Venlo Christian Rondonuwu</h2>
+            <p>NPM: 2606753010</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Created by Our Team | 2026</p>
+    </footer>
+
+</body>
+</html>
